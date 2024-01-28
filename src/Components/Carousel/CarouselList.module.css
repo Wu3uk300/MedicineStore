@@ -1,0 +1,91 @@
+.list {
+  width: 1200px;
+  height: 400px;
+  overflow: hidden;
+}
+.line {
+  transition: 0.5s all;
+  margin-left: 10px;
+  display: flex;
+}
+.recText {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.recText a {
+  margin-right: 10px;
+}
+
+.listItem {
+  margin-right: 20px;
+}
+
+.scrollBtn {
+  font-size: 25px;
+  color: rgb(82, 82, 250);
+  margin-right: 10px;
+  transition: 0.3s all;
+}
+.scrollBtn:hover {
+  color: black;
+  cursor: pointer;
+}
+.scrollBtn[disabled] {
+  color: grey;
+}
+.recText p {
+  font-size: 30px;
+  color: #5252fa;
+  font-weight: bold;
+}
+
+.active {
+  color: rgb(82, 82, 250);
+  font-size: 18px;
+  margin-right: 10px;
+  transition: 0.3s all;
+}
+.chooseBtn {
+  color: black;
+  font-size: 16px;
+  margin-right: 10px;
+  transition: 0.3s all;
+}
+.chooseBtn:hover {
+  color: rgb(82, 82, 250);
+  cursor: pointer;
+}
+.sortLinks input {
+  display: none;
+}
+.sortLinks label {
+  margin-right: 10px;
+  transition: 0.3s all;
+}
+.sortLinks label:hover {
+  color: rgb(82, 82, 250);
+  cursor: pointer;
+}
+
+.sortLinks input:checked + label {
+  color: rgb(82, 82, 250);
+  font-size: 18px;
+}
+.sortLinks input[checked] + label {
+  color: rgb(82, 82, 250);
+  font-size: 18px;
+}
+.componentsAndNavLinks {
+  margin-top: 5px;
+  display: flex;
+  align-items: end;
+}
+.componentLinks {
+  align-items: center;
+  display: flex;
+}
+.navLinks {
+  margin-bottom: -4px;
+}

@@ -1,0 +1,92 @@
+.catalog {
+  height: 430px;
+  background-color: white;
+  display: flex;
+  background-color: rgb(236, 234, 234);
+  background-color: transparent;
+  position: absolute;
+  width: 1200px;
+  z-index: 999;
+}
+.catalogbutton {
+  color: rgb(82, 82, 250);
+  font-weight: bold;
+  font-size: 18px;
+  margin: 5px;
+  margin-left: 20px;
+  padding: 5px 15px;
+  text-align: start;
+  width: 85%;
+  background-color: rgb(234, 251, 251);
+  transition: 0.5s all;
+}
+
+.catalogbutton:hover {
+  cursor: pointer;
+  background-color: aquamarine;
+}
+.firstcatalog {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  flex-basis: 25%;
+}
+.secondcatalog {
+  background-color: white;
+  display: flex;
+  flex-basis: 75%;
+}
+.secondcatalog h2 {
+  color: rgb(82, 82, 250);
+  font-size: 40px;
+  margin-bottom: -30px;
+}
+.catalogLink {
+  margin-top: 5px;
+  color: black;
+  font-size: 18px;
+  transition: 0.5s all;
+}
+.catalogLink:hover {
+  color: rgb(82, 82, 250);
+}
+
+.item__left {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 33%;
+  margin-right: 10px;
+}
+
+.item__mid {
+  padding-top: 80px;
+  flex-basis: 33%;
+  display: flex;
+  flex-direction: column;
+}
+
+.item__right {
+  padding-top: 15px;
+  flex-basis: 34%;
+  padding-left: 35px;
+}
+.item__right img {
+  cursor: pointer;
+  width: 250px;
+  height: 400px;
+}
+
+.govno {
+  display: flex;
+}
+.medButn {
+  display: flex;
+  justify-content: space-between;
+}
+.componentLink {
+  color: rgb(82, 82, 250);
+}
+.secondcatalog {
+  padding-top: 15px;
+}

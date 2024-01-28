@@ -1,0 +1,203 @@
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+body {
+  background-color: rgb(244, 242, 242);
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav {
+  display: flex;
+  height: 92px;
+  background-color: white;
+  width: 1200px;
+}
+
+.navRight {
+  flex-basis: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  flex-basis: 20%;
+  color: blue;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 14px;
+}
+.bigSpan {
+  font-size: 30px;
+  font-weight: bold;
+}
+.topPart {
+  flex-basis: 40%;
+  display: flex;
+  align-items: center;
+  border-left: 1px solid rgb(236, 234, 234);
+  border-bottom: 1px solid rgb(236, 234, 234);
+  white-space: nowrap;
+}
+.topPart p {
+  margin-right: 200px;
+}
+.topPart a {
+  margin-left: 15px;
+}
+.topPart span {
+  margin-left: 15px;
+}
+.number {
+  margin-right: 10px;
+  margin-left: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+  transition: 0.5s all;
+}
+.number:hover {
+  color: black;
+  cursor: pointer;
+}
+.bottomPart {
+  flex-basis: 60%;
+  display: flex;
+  align-items: center;
+}
+.bottomPart button {
+  height: 100%;
+  flex-basis: 25%;
+  background-color: rgb(43, 43, 201);
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+
+.bottomPart button:hover {
+  color: rgb(43, 43, 201);
+  background-color: aquamarine;
+}
+.bottomPart input {
+  margin-left: 15px;
+  margin-right: 45px;
+  flex-basis: 47%;
+  height: 100%;
+  border: none;
+  font-size: 18px;
+}
+.bottomPart input:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logdata {
+  color: black;
+  transition: 0.2s all;
+  font-weight: bold;
+}
+.logdata:hover {
+  color: blue;
+}
+.whishList {
+  color: blue;
+}
+.cart {
+  font-size: 17px;
+  font-weight: bold;
+  color: blue;
+}
+.item-enter {
+  opacity: 0;
+}
+.item-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+.item-exit {
+  opacity: 1;
+}
+.item-exit-active {
+  opacity: 0;
+  transition: opacity 300ms ease-in;
+}
