@@ -1,0 +1,45 @@
+.item {
+  width: 280px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+.itemCover {
+  margin: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.medPic img {
+  margin: auto;
+  width: 220px;
+  height: 220px;
+}
+.description {
+  font-size: 15px;
+}
+.name {
+  color: rgb(82, 82, 250);
+  font-size: 16px;
+  font-weight: bold;
+}
+.medText {
+  margin-left: 10px;
+}
+.rate {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.price {
+  font-size: 18px;
+  font-weight: bolder;
+  color: black;
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+.medText a:hover {
+  transition: 0.5s all;
+  color: black;
+}

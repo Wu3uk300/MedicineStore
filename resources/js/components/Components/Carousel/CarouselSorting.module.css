@@ -1,0 +1,20 @@
+.sortLinks input {
+  display: none;
+}
+.sortLinks label {
+  margin-right: 10px;
+  transition: 0.3s all;
+}
+.sortLinks label:hover {
+  color: rgb(82, 82, 250);
+  cursor: pointer;
+}
+
+.sortLinks input:checked + label {
+  color: rgb(82, 82, 250);
+  font-size: 18px;
+}
+.sortLinks input[checked] + label {
+  color: rgb(82, 82, 250);
+  font-size: 18px;
+}

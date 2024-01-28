@@ -1,0 +1,49 @@
+.main {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+h2 {
+  font-size: 45px;
+  font-weight: bold;
+  color: rgb(82, 82, 250);
+  flex-basis: 25%;
+}
+.sortingSection {
+  padding-top: 17px;
+  align-self: flex-end;
+  flex-basis: 73%;
+}
+.sortText {
+  font-weight: bold;
+  color: rgb(82, 82, 250);
+  font-size: 25px;
+}
+.sortShow {
+  font-weight: bold;
+  margin-left: 15px;
+  font-size: 20px;
+}
+.sortShowAll {
+  display: flex;
+  align-items: center;
+}
+.sortButtons {
+  margin-top: 10px;
+}
+.sortBtn {
+  background-color: #c3ffc5;
+  padding: 5px;
+  font-weight: bold;
+  border: 1px solid black;
+  transition: 0.3s all;
+  margin-right: 20px;
+}
+.sortBtn:hover {
+  cursor: pointer;
+  background-color: #a8deaa;
+}
+.sortButtons button:disabled {
+  background-color: #a8deaa;
+  opacity: 0.75;
+}

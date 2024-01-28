@@ -1,0 +1,49 @@
+.infoblock {
+  margin-top: 50px;
+  display: flex;
+  height: 480px;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.leftPart {
+  height: 100%;
+  flex-basis: 49%;
+  background-color: rgb(209, 244, 232);
+  overflow: hidden;
+  text-align: center;
+  font-weight: bold;
+}
+.rightPart {
+  height: 100%;
+  flex-basis: 49%;
+  background-color: rgb(203, 242, 255);
+  overflow: hidden;
+  text-align: center;
+  font-weight: bold;
+}
+.leftText {
+  color: rgb(82, 82, 250);
+  margin-top: 60px;
+}
+.leftText h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+.leftPic img {
+  margin-top: 40px;
+  margin-left: 90px;
+  width: 400px;
+}
+.rightText {
+  color: rgb(82, 82, 250);
+  margin-top: 60px;
+}
+.rightText h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+.rightPic img {
+  margin-left: -50px;
+  margin-top: 40px;
+}

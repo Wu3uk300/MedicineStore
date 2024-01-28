@@ -1,0 +1,127 @@
+.wholepage {
+  background-color: #10171e;
+
+  min-height: 100vh;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+  padding-top: 50px;
+}
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loginLogo {
+  text-align: center;
+  margin-bottom: 50px;
+  color: rgb(82, 82, 250);
+  font-weight: bold;
+  font-size: 26px;
+  width: fit-content;
+}
+.loginSmall {
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.loginField {
+  border: 1px solid rgb(96, 96, 96);
+
+  width: 300px;
+  background-color: #0d3050;
+  border-radius: 3%;
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+.loginUserName {
+  margin-bottom: 20px;
+}
+.loginEmail {
+  margin-bottom: 20px;
+}
+.loginUserNameText {
+  color: white;
+  font-weight: lighter;
+  font-size: 15px;
+  margin-bottom: 5px;
+  border: none;
+}
+.loginUserNameInput input:focus {
+  outline: 1px solid rgb(82, 82, 250);
+}
+.loginUserNameInput input {
+  border: 1px solid rgb(96, 96, 96);
+  border-radius: 5px;
+  background-color: #10171e;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  font-size: 14px;
+  width: 100%;
+}
+.loginPassword {
+  margin-bottom: 25px;
+}
+.loginPasswordText {
+  display: flex;
+  justify-content: space-between;
+}
+
+.loginPasswordText p {
+  font-size: 15px;
+  color: white;
+}
+.loginButton button {
+  width: 100%;
+  background-color: green;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  padding: 7px 20px;
+  font-size: 16px;
+  transition: 0.3s all;
+}
+.loginButton button:hover {
+  background-color: rgb(10, 159, 10);
+  cursor: pointer;
+  font-size: 16.5px;
+}
+.registerField {
+  width: 300px;
+  height: 100px;
+  background-color: transparent;
+  border: 1px solid rgb(96, 96, 96);
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px 5px;
+  margin-bottom: 20px;
+}
+.googlereg {
+  width: fit-content;
+}
+.googlereg span {
+  color: rgb(116, 190, 255);
+  font-size: 14px;
+}
+.registerLink {
+  color: white;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.registelLinkExact {
+  margin-left: 5px;
+  color: rgb(116, 190, 255);
+}
+.nameErorr {
+  color: red;
+  font-size: 14px;
+}

@@ -1,0 +1,205 @@
+ul,
+li {
+  margin: 0;
+
+  padding: 0;
+}
+.main {
+  margin-bottom: 50px;
+}
+.topMain {
+  background-color: rgb(255, 241, 150);
+  width: 100%;
+  height: 500px;
+  margin-top: 10px;
+  display: flex;
+  margin-bottom: 20px;
+}
+.leftContent {
+  flex-basis: 50%;
+}
+.textPart {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.leftContent h2 {
+  color: rgb(82, 82, 250);
+  font-size: 54px;
+  font-weight: bolder;
+  letter-spacing: -1px;
+  line-height: 1.25;
+}
+.leftContent p {
+  color: rgb(82, 82, 250);
+  margin-top: 15px;
+  font-weight: bolder;
+}
+.leftContent button {
+  background-color: white;
+  color: black;
+  padding: 15px 35px 15px 35px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 50px;
+  transition: 0.3s all;
+}
+.leftContent button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(82, 82, 250);
+}
+.rightContent {
+  flex-basis: 50%;
+}
+.rightContent img {
+  height: 400px;
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.bottomMain {
+  display: flex;
+  height: 470px;
+}
+.medKids {
+  width: 280px;
+  background-color: white;
+  padding: 30px 20px 0px 30px;
+}
+.medKidsText {
+  margin-bottom: 20px;
+  color: rgb(82, 82, 250);
+  font-size: 24px;
+  font-weight: bolder;
+}
+.mamaPic img {
+  height: 200px;
+  width: 220px;
+}
+ul {
+  color: rgb(82, 82, 250);
+  font-size: 17px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-left: 17px;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+.medKids ul {
+  width: fit-content;
+}
+.medKids a:visited {
+  color: rgb(82, 82, 250);
+}
+.medKids a:hover {
+  transition: 0.3s all;
+  color: black;
+}
+.fambeauty {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  width: 280px;
+  margin-right: 20px;
+}
+.family {
+  height: 50%;
+  background-color: rgb(197, 255, 236);
+  padding: 30px 86.2px 0px 30px;
+}
+.familyText {
+  margin-bottom: 20px;
+  color: rgb(82, 82, 250);
+  font-size: 24px;
+  font-weight: bolder;
+}
+.family a:visited {
+  color: rgb(82, 82, 250);
+}
+.family a:hover {
+  transition: 0.3s all;
+  color: black;
+}
+.break {
+  height: 5%;
+}
+.beauty {
+  height: 50%;
+  background-color: rgb(82, 82, 250);
+  padding: 30px 86.2px 0px 30px;
+}
+.beautyText {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.beauty ul {
+  color: white;
+  font-size: 17px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-left: 17px;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+.beauty a {
+  color: white;
+}
+.beauty a:hover {
+  transition: 0.3s all;
+  color: rgb(197, 255, 236);
+}
+.bottomLeft {
+  flex-basis: 50%;
+  display: flex;
+}
+.bottomRight {
+  width: 100%;
+  background-color: rgb(203, 242, 255);
+  height: 470px;
+}
+.health {
+  padding: 30px 0px 20px 30px;
+}
+.healthText p {
+  color: rgb(82, 82, 250);
+  font-size: 24px;
+  font-weight: bolder;
+}
+.bottomUl {
+  display: flex;
+}
+.bottomUl div {
+  width: 267px;
+}
+.health ul {
+  font-size: 17px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-left: 17px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  height: fit-content;
+}
+
+.health ul {
+  width: fit-content;
+}
+.health a {
+  color: rgb(82, 82, 250);
+}
+.health a:hover {
+  transition: 0.3s all;
+  color: black;
+}
+.rightUl {
+  margin-right: 30px;
+}
+.healthPic img {
+  width: 290px;
+  height: 270px;
+  margin-left: 200px;
+  margin-top: -60px;
+}
