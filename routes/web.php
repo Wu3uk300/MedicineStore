@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/create-item', [\App\Http\Controllers\ItemController::class, 'createItem'])->name('create-item');
+
+// Main route for index page of application
+Route::group([], function() {
+//    Route::get('/', [ShowAppController::class, 'showApp']);
+    // If the page is not found (code 404), it automatically follows this route and return the main page
+    Route::get("{any?}", [App\Http\Controllers\HomeController::class, 'index'])->where('any', '.*');
 });

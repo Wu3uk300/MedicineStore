@@ -1,0 +1,134 @@
+.contact {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.leftPart {
+  height: 480px;
+  width: 100%;
+  background-image: url("./DocotrPic.jpeg");
+  background-size: 100% 100%;
+  background-position: left;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  flex-basis: 49%;
+}
+
+.rightPart {
+  flex-basis: 49%;
+  height: 480px;
+  width: 100%;
+  background-color: rgb(209, 244, 232);
+}
+.leftText {
+  color: white;
+}
+.leftBtn button {
+  background-color: rgb(209, 244, 232);
+  padding: 15px 20px 15px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  margin-right: 100px;
+  margin-top: 50px;
+  transition: 0.3s all;
+}
+.leftBtn button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(82, 82, 250);
+}
+.rightText {
+  margin-left: 50px;
+  margin-top: 30px;
+  color: rgb(82, 82, 250);
+}
+.rightText h2 {
+  margin-bottom: 20px;
+}
+.rightText p {
+  margin-bottom: 150px;
+}
+.inputPart {
+  margin-bottom: 20px;
+}
+.inputPart input {
+  width: 360px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: gray;
+  padding-left: 20px;
+}
+.inputPart button {
+  color: white;
+  height: 50px;
+  background-color: rgb(82, 82, 250);
+  width: 120px;
+  font-weight: bold;
+  transition: 0.3s all;
+}
+.inputPart button:hover {
+  background-color: rgb(209, 244, 232);
+  color: black;
+  cursor: pointer;
+}
+.rightText span {
+  line-height: 1;
+  font-size: 14px;
+}
+.phoneInfo {
+  margin-top: 20px;
+  height: 480px;
+  width: 100%;
+  background-color: rgb(82, 82, 250);
+}
+.phoneInfo {
+  display: flex;
+  margin-bottom: 50px;
+}
+.phoneInfoText {
+  margin-top: 50px;
+  margin-left: 40px;
+}
+.phoneInfoText h2 {
+  color: white;
+  margin-bottom: 70px;
+}
+.phoneInfoText a {
+  color: rgb(209, 244, 232);
+  font-weight: bold;
+  font-size: 48px;
+  transition: 0.3s all;
+  margin-bottom: 10px;
+}
+.phoneInfoText a:visited {
+  color: rgb(209, 244, 232);
+}
+.phoneInfoText a:hover {
+  cursor: pointer;
+  color: white;
+}
+.phoneInfoText p {
+  color: rgb(209, 244, 232);
+  font-weight: bold;
+}
+.phoneInfoPic {
+  overflow: hidden;
+}
+.phoneInfoPic img {
+  width: 1000px;
+  margin-top: -50px;
+}
+.leftLogo {
+  margin-top: 40px;
+  margin-right: 20px;
+  color: rgb(82, 82, 250);
+  font-size: 34px;
+}
+.rightLogo {
+  color: rgb(82, 82, 250);
+  font-size: 34px;
+}

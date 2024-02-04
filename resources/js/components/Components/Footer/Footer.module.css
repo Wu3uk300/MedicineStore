@@ -1,0 +1,110 @@
+.footer {
+  width: 100%;
+  height: 470px;
+  background-color: white;
+  display: flex;
+}
+.leftPart {
+  flex-basis: 65%;
+  border-right: 1px solid rgb(236, 236, 236);
+}
+.rightPart {
+  flex-basis: 35%;
+}
+.leftText {
+  display: flex;
+  margin-top: 70px;
+}
+.firstLinks {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+.secondLinks {
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  margin-left: 170px;
+  margin-right: 100px;
+  text-align: center;
+}
+.logo h2 {
+  color: rgb(82, 82, 250);
+  font-weight: bold;
+  font-size: 28px;
+}
+.logo p {
+  font-size: 14px;
+  color: rgb(82, 82, 250);
+  font-weight: bold;
+}
+
+.leftText a {
+  margin-top: 7px;
+  color: rgb(82, 82, 250);
+  transition: 0.5s all;
+  width: fit-content;
+}
+
+.leftText a:visited {
+  color: rgb(82, 82, 250);
+}
+
+.leftText a:hover {
+  cursor: pointer;
+  color: black;
+}
+.mediaLinks {
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.mediaLinks a {
+  width: fit-content;
+}
+.mediaLinks img {
+  width: 24px;
+  height: 24px;
+  color: rgb(82, 82, 250);
+  margin-left: 5px;
+}
+.rightText {
+  margin-top: 70px;
+  margin-left: 80px;
+}
+.phone {
+  color: rgb(82, 82, 250);
+  font-size: 34px;
+  font-weight: bold;
+  transition: 0.3s all;
+}
+.phone:visited {
+  color: rgb(82, 82, 250);
+}
+.phone:hover {
+  color: black;
+  font-size: 40px;
+}
+.time {
+  margin-top: 5px;
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+.adress {
+  margin-bottom: 40px;
+}
+.mail {
+  color: rgb(82, 82, 250);
+  transition: 0.3s all;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.mail:visited {
+  color: rgb(82, 82, 250);
+}
+.mail:hover {
+  color: black;
+}
